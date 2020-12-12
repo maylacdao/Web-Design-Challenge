@@ -32,12 +32,9 @@ h1 {
   padding-top: 20px;
 }
 
-#summary-graph {
-  position: relative;
-  width: 200px;
-  height: 200px;
-  float: left;
-  margin: 20px 20px;
+.summary-graph {
+  width: 100% !important;
+  height: 100% !important;
 }
 
 h2 {
@@ -59,7 +56,7 @@ p {
   line-height: 2;
 }
 
-.col-md-4 {
+.col-lg-4 {
   padding-left: 5%;
 }
 
@@ -75,44 +72,21 @@ p {
   background-color: white;
 }
 
-.vis:hover {
-  border-color: teal;
-  border-width: 3px;
-}
-
-@media (max-width: 992px) {
-  body {
-    background-color: white;
-  }
-  .navbar-expand-lg {
-    background-color: teal !important;
-  }
-  .navbar {
-    max-height: none;
-    padding: inherit;
-  }
-  .navbar div {
-    margin: inherit;
-    background-color: white;
+@media (min-width: 576px) {
+  .navbar-expand-lg navbar-light bg-light {
+    padding: 10px;
+    background-color: #4baba6;
   }
 
-  .navbar-brand {
-    padding: 10px !important;
+  .box {
+    margin: 0 auto;
   }
 
-  h2 {
-    text-align: left;
-  }
-  button {
-    margin-right: 30px;
+  .navbar-expand-lg navbar-light bg-light ul {
+    visibility: hidden;
   }
 
-  button:focus {
-    outline: 1px dotted;
-    outline: 5px auto -webkit-focusring-color;
-  }
-
-  .test {
-    margin: inherit;
+  #navbarSupportedContent {
+    visibility: visible;
   }
 }
