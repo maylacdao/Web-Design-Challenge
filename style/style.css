@@ -1,0 +1,39 @@
+body {
+  background-color: #ededed;
+}
+
+.navbar-brand {
+  background-color: #4baba6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#navbarNavDropdown {
+  padding-left: 70%;
+}
+.summary {
+  background-color: #ffffff;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4baba6;
+  font-size: 45px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 50px;
+  padding: 20px;
+}
+.summary-graph {
+  position: relative;
+  width: 250px;
+}
+
+p .summary {
+  font-size: 18px;
+}
