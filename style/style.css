@@ -38,6 +38,10 @@ p .summary {
   font-size: 18px;
 }
 
+.col-lg-4 {
+  padding-left: 5%;
+}
+
 @media (max-width: 550px) {
   .navbar-expand-lg navbar-light bg-light {
     padding: 10px;
