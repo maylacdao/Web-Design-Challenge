@@ -42,6 +42,10 @@ p .summary {
   padding-left: 5%;
 }
 
+.visualizations {
+  background-color: #ffff;
+}
+
 @media (max-width: 550px) {
   .navbar-expand-lg navbar-light bg-light {
     padding: 10px;
