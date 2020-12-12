@@ -37,3 +37,22 @@ h1 {
 p .summary {
   font-size: 18px;
 }
+
+@media (max-width: 550px) {
+  .navbar-expand-lg navbar-light bg-light {
+    padding: 10px;
+  }
+
+  .box {
+    margin-right: 30px;
+    margin-left: 30px;
+  }
+
+  .navbar-expand-lg navbar-light bg-light ul {
+    visibility: hidden;
+  }
+
+  #navbarSupportedContent {
+    visibility: visible;
+  }
+}
