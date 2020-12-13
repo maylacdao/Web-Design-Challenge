@@ -18,8 +18,8 @@ body {
   font-size: 18px;
 }
 
-.summary {
-  background-color: #ffffff;
+.col-lg-8 {
+  background-color: #ffff;
 }
 
 h1 {
@@ -38,6 +38,13 @@ h1 {
   height: 200px;
   float: left;
   margin: 20px 20px;
+}
+
+.feature {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  height: 70%;
 }
 
 h2 {
@@ -59,19 +66,13 @@ p {
   line-height: 2;
 }
 
-.col-md-4 {
-  padding-left: 5%;
+.col-lg-6 {
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
 }
 
 .box {
-  background-color: #ffff;
-}
-
-.col-6 {
-  padding: 10px 15px;
-  background: white;
-  margin-top: 10px;
-  margin-bottom: 20px;
   background-color: white;
 }
 
@@ -84,16 +85,14 @@ p {
   body {
     background-color: white;
   }
-  .navbar-expand-lg {
-    background-color: teal !important;
-  }
+
   .navbar {
     max-height: none;
     padding: inherit;
   }
   .navbar div {
     margin: inherit;
-    background-color: white;
+    background-color: #4baba6;
   }
 
   .navbar-brand {
@@ -103,6 +102,12 @@ p {
   h2 {
     text-align: left;
   }
+
+  .vis {
+    width: 300px;
+    height: 200px;
+  }
+
   button {
     margin-right: 30px;
   }
@@ -110,9 +115,5 @@ p {
   button:focus {
     outline: 1px dotted;
     outline: 5px auto -webkit-focusring-color;
-  }
-
-  .test {
-    margin: inherit;
   }
 }
