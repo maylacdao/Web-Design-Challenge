@@ -1,0 +1,119 @@
+body {
+  background-color: #ededed;
+}
+
+.navbar-brand {
+  background-color: #4baba6;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#navbarNavDropdown {
+  padding-left: 70%;
+  font-size: 18px;
+}
+
+.col-lg-8 {
+  background-color: #ffff;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4baba6;
+  font-size: 40px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 50px;
+  padding-top: 20px;
+}
+
+#summary-graph {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  float: left;
+  margin: 20px 20px;
+}
+
+.feature {
+  margin: 0 auto;
+  display: block;
+  width: 70%;
+  height: 70%;
+}
+
+h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #4baba6;
+  font-size: 30px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 50px;
+  padding-top: 20px;
+  text-align: center;
+}
+
+p {
+  color: #666666;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  margin-right: 50px;
+  line-height: 2;
+}
+
+.col-lg-6 {
+  padding: 10px 15px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.box {
+  background-color: white;
+}
+
+.vis:hover {
+  border-color: teal;
+  border-width: 3px;
+}
+
+@media (max-width: 992px) {
+  body {
+    background-color: white;
+  }
+
+  .navbar {
+    max-height: none;
+    padding: inherit;
+  }
+  .navbar div {
+    margin: inherit;
+    background-color: #4baba6;
+  }
+
+  .navbar-brand {
+    padding: 10px !important;
+  }
+
+  h2 {
+    text-align: left;
+  }
+
+  .vis {
+    width: 300px;
+    height: 200px;
+  }
+
+  button {
+    margin-right: 30px;
+  }
+
+  button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focusring-color;
+  }
+}
