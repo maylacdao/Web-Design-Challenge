@@ -1,5 +1,4 @@
 # Web-Design-Challenge
-UoT Data Bootcamp Unit 10 Homework Submission
 
 Github Page: https://maylacdao.github.io/Web-Design-Challenge/html/index.html
 
