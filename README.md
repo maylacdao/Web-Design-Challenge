@@ -1,4 +1,4 @@
-# Web-Design-Challenge
+# Weather Analysis: Visualization Dashboard  
 
 Github Page: https://maylacdao.github.io/Web-Design-Challenge/html/index.html
 
