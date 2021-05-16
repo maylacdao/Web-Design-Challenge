@@ -1,6 +1,6 @@
 # Weather Analysis: Visualization Dashboard  
 
-Link to [Website: target="_blank"](https://maylacdao.github.io/website-visualization-dashboard/)
+Link to [Website](https://maylacdao.github.io/website-visualization-dashboard/ : target="_blank")
 
 Data: See 'Resources' folder of this repository.
 
