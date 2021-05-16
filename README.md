@@ -2,7 +2,7 @@
 
 Link to [Website](https://maylacdao.github.io/website-visualization-dashboard/)
 
-Data: 
+Data: See 'Resources' folder of this repository.
 
 ## OBJECTIVE
 
