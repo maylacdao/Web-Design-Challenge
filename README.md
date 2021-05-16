@@ -1,6 +1,6 @@
 # Weather Analysis: Visualization Dashboard  
 
-Github Page: https://maylacdao.github.io/Web-Design-Challenge/html/index.html
+Link to [Website](https://maylacdao.github.io/website-visualization-dashboard/)
 
 Latitude - Latitude Analysis Dashboard with Attitude
 
