@@ -1,72 +1,43 @@
 # Weather Analysis: Visualization Dashboard
 
-Link to <a href="https://maylacdao.github.io/website-visualization-dashboard/" target="_blank">Dashboard</a>
+**Data:** See 'Resources' folder of this repository.
 
-Data: See 'Resources' folder of this repository.
-
-Analysis: [City Weather Analysis](#)
+**Analysis:** [City Weather Analysis](#)
 
 ![alt text](Images/landing-sm.png)
 
-## OBJECTIVE
+## **OBJECTIVE**
 
-For this homework we'll be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting weather data.
-In building this dashboard, we'll create individual pages for each plot and a means by which we can navigate between them. These pages will contain the visualizations and their corresponding explanations. We'll also have a landing page, a page where we can see a comparison of all of the plots, and another page where we can view the data used to build them.
+Previously, I've run an analysis on a global city weather dataset, wherein the results of the analysis were shown graphically. For this project, I created a dashboard/website which will serve as:
+(1) repository of all the charts/graphs generated from the previous analytics project; and
+(2) a dashboard where the results and insights can be viewed.
 
-Website Requirements
-For reference, see the "Screenshots" section below.
-The website must consist of 7 pages total, including:
+In building this dashboard, I've created individual pages for each plot and a means by which viwers can navigate between them. Each page contains the visualizations and their corresponding explanations. There is also a landing page, where a comparison of all of the plots is shown, and another page where the data used to build them can be viewed.
 
-A landing page containing:
+In summary, the website consists of the following pages:
+(1) Landing page - contains an explanation of the project and links to each page for each visualization. There is a sidebar containing preview images of each plot, and clicking an image takes the user to that visualization.
 
-An explanation of the project.
-Links to each visualizations page. There should be a sidebar containing preview images of each plot, and clicking an image should take the user to that visualization.
+(2) Visualization pages - there will be a total of four (4).
 
-Four visualization pages, each with:
+(3) "Comparisons" page - contains all of the visualizations on the same page so we can easily visually compare them.
 
-A descriptive title and heading tag.
-The plot/visualization itself for the selected comparison.
-A paragraph describing the plot and its significance.
+(4) "Data" page - displays a responsive table containing the data used in the visualizations.
 
-A "Comparisons" page that:
+## **OUTPUT**
 
-Contains all of the visualizations on the same page so we can easily visually compare them.
-Uses a Bootstrap grid for the visualizations.
+Link to <a href="https://maylacdao.github.io/website-visualization-dashboard/" target="_blank">Dashboard</a>
 
-The grid must be two visualizations across on screens medium and larger, and 1 across on extra-small and small screens.
+**Landing Page**
+![alt text](Images/landingResize.png)
 
-A "Data" page that:
+**Navigation Bar**
+![alt text](Images/nav-lg.png)
 
-Displays a responsive table containing the data used in the visualizations.
+**Charts**
+![alt text](Images/visualize-lg.png)
 
-The table must be a bootstrap table component. Hint
+## **CONTACT**
 
-The data must come from exporting the .csv file as HTML, or converting it to HTML. Try using a tool you already know, pandas. Pandas has a nifty method approprately called to_html that allows you to generate a HTML table from a pandas dataframe. See the documentation here
+Email: [may.lacdao@gmail.com]
 
-The website must, at the top of every page, have a navigation menu that:
-
-Has the name of the site on the left of the nav which allows users to return to the landing page from any page.
-Contains a dropdown menu on the right of the navbar named "Plots" that provides a link to each individual visualization page.
-Provides two more text links on the right: "Comparisons," which links to the comparisons page, and "Data," which links to the data page.
-Is responsive (using media queries). The nav must have similar behavior as the screenshots "Navigation Menu" section (notice the background color change).
-
-Finally, the website must be deployed to GitHub pages.
-When finished, submit to BootcampSpot the links to 1) the deployed app and 2) the GitHub repository.
-Ensure your repository has regular commits (i.e. 20+ commits) and a thorough README.md file
-
-Considerations
-
-You may use the weather data or choose another dataset. Alternatively, you may use the included cities dataset and pull the images from the assets folder.
-You must use Bootstrap. This includes using the Bootstrap navbar component for the header on every page, the bootstrap table component for the data page, and the Bootstrap grid for responsiveness on the comparison page.
-You must deploy your website to GitHub pages, with the website working on a live, publicly accessible URL as a result.
-Be sure to use a CSS media query for the navigation menu.
-Be sure your website works at all window widths/sizes.
-Feel free to take some liberty in the visual aspects, but keep the core functionality the same.
-
-Bonuses
-
-Use a different dataset! The requirements above still hold, but make it your own.
-Use a Bootstrap theme to customize your website. You may use a tool like Bootswatch. Make it look snazzy, give it some attitude. If using this, be sure you also meet all of the requirements listed above.
-Add extra visualizations! The more comparisons the better, right?
-Use meaningful glyphicons next to links in the header.
-Have visualization navigation on every visualizations page with an active state.
+Linkedin: [Connect with me!](https://www.linkedin.com/in/maylacdao/)
